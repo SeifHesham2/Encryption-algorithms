@@ -1,50 +1,67 @@
-# Encryption Algorithms Library
-
-This repository contains a collection of encryption algorithms implemented in [programming language]. These algorithms provide secure methods for data encryption, ensuring confidentiality and integrity of sensitive information.
+# Encryption Algorithms Showcase
 
 ## Table of Contents
 
-- [AES](#aes)
-- [DES](#des)
-- [DiffieHellman](#diffiehellman)
-- [ElGamal](#elgamal)
-- [MD5](#md5)
-- [RC4](#rc4)
-- [RSA](#rsa)
+- [Overview](#overview)
+- [Encryption Algorithms](#encryption-algorithms)
+  - [Advanced Encryption Standard (AES)](#advanced-encryption-standard-aes)
+  - [Data Encryption Standard (DES)](#data-encryption-standard-des)
+  - [Caesar Algorithm](#caesar-algorithm)
+  - [Columnar Algorithm](#columnar-algorithm)
+  - [Diffie-Hellman Algorithm](#diffie-hellman-algorithm)
+  - [El-Gamal Algorithm](#el-gamal-algorithm)
+  - [Extended Euclidean Algorithm](#extended-euclidean-algorithm)
+  - [Hill Cipher Algorithm](#hill-cipher-algorithm)
+  - [Monoalphabetic Algorithm](#monoalphabetic-algorithm)
+  - [Playfair Algorithm](#playfair-algorithm)
+  - [Rail Fence Algorithm](#rail-fence-algorithm)
 
-## AES
+## Overview
 
-The Advanced Encryption Standard (AES) is a widely used symmetric encryption algorithm known for its security and efficiency.
+This project showcases various encryption algorithms, each contributing to the field of information security. Encryption is essential for securing sensitive data, and these algorithms play a crucial role in achieving that goal.
 
-## DES
+## Encryption Algorithms
 
-The Data Encryption Standard (DES) is a symmetric-key algorithm that was widely used for secure data transmission.
+### Advanced Encryption Standard (AES)
 
-## DiffieHellman
+- **Description:** AES is a widely used symmetric encryption algorithm. It is known for its security and efficiency.
 
-The Diffie-Hellman key exchange algorithm allows two parties to securely exchange cryptographic keys over an insecure communication channel.
+### Data Encryption Standard (DES)
 
-## ElGamal
+- **Description:** DES is a symmetric-key algorithm that was once a standard for government encryption.
 
-The ElGamal encryption algorithm is an asymmetric key algorithm that provides both encryption and digital signature capabilities.
+### Caesar Algorithm
 
-## MD5
+- **Description:** Caesar Cipher is a simple substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
 
-The MD5 algorithm is a widely used hash function producing a 128-bit hash value.
+### Columnar Algorithm
 
-## RC4
+- **Description:** The Columnar Transposition Cipher involves writing the plaintext out in rows of a fixed length, and then reading the ciphertext off in columns.
 
-The RC4 algorithm is a widely used stream cipher known for its simplicity and speed.
+### Diffie-Hellman Algorithm
 
-## RSA
+- **Description:** Diffie-Hellman is a key exchange algorithm allowing two parties to securely generate a shared secret over an insecure communication channel.
 
-The RSA algorithm is a widely used asymmetric key algorithm for secure data transmission and digital signatures.
+### El-Gamal Algorithm
 
-## Usage
+- **Description:** El-Gamal is an asymmetric key encryption algorithm used for secure communication.
 
-To use this library, follow the steps below:
+### Extended Euclidean Algorithm
 
-1. Clone the repository:
+- **Description:** The Extended Euclidean Algorithm finds the greatest common divisor of two numbers and the coefficients of Bézout's identity.
 
-   ```bash
-   git clone https://github.com/your-username/encryption-algorithms-library.git
+### Hill Cipher Algorithm
+
+- **Description:** Hill Cipher is a polygraphic substitution cipher based on linear algebra.
+
+### Monoalphabetic Algorithm
+
+- **Description:** Monoalphabetic ciphers use a single substitution alphabet for the entire message.
+
+### Playfair Algorithm
+
+- **Description:** Playfair Cipher is a digraph substitution cipher that encrypts pairs of letters rather than single letters.
+
+### Rail Fence Algorithm
+
+- **Description:** Rail Fence Cipher is a transposition cipher that encrypts by rearranging the letters of the plaintext.
